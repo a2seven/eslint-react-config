@@ -1,0 +1,12 @@
+stages:
+  - checkout
+  - audit
+  - publish
+
+include:
+  - local: .gitlab/checkout.yml
+  - local: .gitlab/audit.yml
+  - local: .gitlab/publish.yml
+
+variables:
+  NODE_MODULES_DIR: 'node_modules'
