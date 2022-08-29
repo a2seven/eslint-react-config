@@ -10,3 +10,5 @@ audit:
     expire_in: 1 hrs
     paths:
       - ${NODE_MODULES_DIR}
+  only:
+    - main
