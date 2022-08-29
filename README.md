@@ -15,12 +15,12 @@ To install the package, add the **.nmprc** file to the root of your application 
 ## Installation
 
 ```bash
-$ npm install @a2seven/eslint
+$ npm install @a2seven/eslint-config
 ```
 
 ## How to usage
 
-1. Add @a2seven/eslint package to your .eslintrc.js file:
+1. Add @a2seven/eslint-config package to your .eslintrc.js file:
 
 ```javascript
 module.exports = {
