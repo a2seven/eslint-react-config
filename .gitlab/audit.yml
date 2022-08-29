@@ -1,0 +1,12 @@
+audit:
+  stage: audit
+  image: $NODE_IMAGE
+  script:
+    - yarn audit
+  allow_failure: true
+  artifacts:
+    expire_in: 1 hrs
+    paths:
+      - ${NODE_MODULES_DIR}
+  only:
+    - main

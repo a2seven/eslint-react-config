@@ -1,0 +1,15 @@
+publish:
+  stage: publish
+  needs:
+    - checkout
+  dependencies:
+    - checkout
+  script:
+    - echo -e
+      "${A2SEVEN_PACKAGE_NAMESPACE}:registry=${CI_SERVER_PROTOCOL}://${CI_SERVER_HOST}/api/v4/projects/${REGISTRY_PROJECT_ID}/packages/npm/ \n
+      //${CI_SERVER_HOST}/api/v4/projects/${REGISTRY_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
+    - npm publish
+    - echo "-- publish completed successfully"
+  when: manual
+  only:
+    - main

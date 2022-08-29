@@ -1,0 +1,11 @@
+checkout:
+  stage: checkout
+  image: $NODE_IMAGE
+  script:
+    - yarn install
+  artifacts:
+    expire_in: 1 hrs
+    paths:
+      - $NODE_MODULES_DIR
+  only:
+    - main
