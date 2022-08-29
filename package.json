@@ -1,0 +1,37 @@
+{
+  "name": "@a2seven/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint config based in recommended best practices with custom rules",
+  "author": "",
+  "private": false,
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependency": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-max-params-no-constructor": "^0.0.4",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.15.0",
+    "@typescript-eslint/parser": "5.15.0",
+    "eslint": "8.11.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-max-params-no-constructor": "0.0.4",
+    "eslint-plugin-no-loops": "0.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "prettier": "2.6.0"
+  }
+}
