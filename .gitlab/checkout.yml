@@ -10,4 +10,4 @@ checkout:
     paths:
       - $NODE_MODULES_DIR
   only:
-    - tags
+    - main
