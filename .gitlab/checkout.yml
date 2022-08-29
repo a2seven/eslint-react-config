@@ -1,8 +1,6 @@
 checkout:
   stage: checkout
   image: $NODE_IMAGE
-  tags:
-    - $RUNNER_TAG
   script:
     - yarn install
   artifacts:

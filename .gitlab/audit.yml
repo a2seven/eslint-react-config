@@ -1,8 +1,6 @@
 audit:
   stage: audit
   image: $NODE_IMAGE
-  tags:
-    - $RUNNER_TAG
   script:
     - yarn audit
   allow_failure: true
