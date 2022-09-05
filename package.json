@@ -1,12 +1,12 @@
 {
-  "name": "@a2seven/eslint-config",
+  "name": "@a2seven/eslint-react-config",
   "version": "1.0.0",
   "description": "ESLint config based in recommended best practices with custom rules",
   "author": "",
   "private": false,
   "license": "MIT",
   "main": "index.js",
-  "peerDependency": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
@@ -17,6 +17,8 @@
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.6",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.6.0"
   }
