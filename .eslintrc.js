@@ -102,6 +102,7 @@ module.exports = {
       },
     ],
     'max-classes-per-file': ['error', 1],
+    'max-lines-per-function': ['error', 50],
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     "no-param-reassign": [
