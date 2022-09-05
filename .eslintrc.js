@@ -20,6 +20,8 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:promise/recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
   ],
   root: true,
   env: {
