@@ -1,6 +1,6 @@
 {
   "name": "@a2seven/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint config based in recommended best practices with custom rules",
   "author": "",
   "private": false,

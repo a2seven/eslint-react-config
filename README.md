@@ -5,21 +5,21 @@ ESLint config based in recommended best practices with custom rules
 ## Installation
 
 ```bash
-$ npm install @a2seven/eslint-config
+$ npm install @a2seven/eslint-config-react
 ```
 or
 ```bash
-$ yarn add @a2seven/eslint-config
+$ yarn add @a2seven/eslint-config-react
 ```
 
 ## How to usage
 
-1. Add `@a2seven/eslint-react-config` package to your `.eslintrc.js` file:
+1. Add `@a2seven/eslint-config-react` package to your `.eslintrc.js` file:
 
 ```javascript
 module.exports = {
     extends: [
-        '@a2seven/eslint-react-config',
+        '@a2seven/eslint-config-react',
     ],
 };
 ```
