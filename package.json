@@ -1,5 +1,5 @@
 {
-  "name": "@a2seven/eslint-react-config",
+  "name": "@a2seven/eslint-config-react",
   "version": "1.0.2",
   "description": "ESLint config based in recommended best practices with custom rules",
   "author": "",
