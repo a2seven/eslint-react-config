@@ -100,6 +100,13 @@ module.exports = {
         'format': ['StrictPascalCase'],
         'prefix': ['is', 'has',]
       },
+
+      /* React components */
+      {
+        'selector': ['variable', 'function'],
+        'types': ['function'],
+        'format': ['StrictPascalCase', 'strictCamelCase'],
+      },
     ],
     'max-classes-per-file': ['error', 1],
     'simple-import-sort/imports': 'error',
@@ -119,6 +126,9 @@ module.exports = {
 
     /* error rules node */
     'no-sync': 'error',
+
+    /* react/redux state mutation reasign */
+    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['state'] }],
 
     /* error rules code-style */
     'no-console': 'error',

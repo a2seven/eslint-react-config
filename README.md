@@ -42,3 +42,12 @@ module.exports = {
 "eslint-plugin-simple-import-sort": "^7.0.0",
 "prettier": "^2.6.0"
 ```
+
+3. If you work with VScode create `.prettierrc` file with next rules:
+
+```json
+{
+  "singleQuote": true,
+  "trailingComma": "all"
+}
+```
