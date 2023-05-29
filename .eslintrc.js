@@ -97,15 +97,11 @@ module.exports = {
       {
         'selector': 'variable',
         'types': ['boolean'],
-        'format': ['StrictPascalCase'],
-        'prefix': ['is', 'has',]
-      },
-
-      /* React components */
-      {
-        'selector': ['variable', 'function'],
-        'types': ['function'],
-        'format': ['StrictPascalCase', 'strictCamelCase'],
+        'format': [
+          'StrictPascalCase',
+          'UPPER_CASE',
+        ],
+        'prefix': ['is', 'has', 'IS_', 'HAS_'],
       },
     ],
     'max-classes-per-file': ['error', 1],
