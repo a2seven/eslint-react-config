@@ -103,6 +103,13 @@ module.exports = {
         ],
         'prefix': ['is', 'has', 'IS_', 'HAS_'],
       },
+
+      /* React components */
+      {
+        'selector': ['variable', 'function'],
+        'types': ['function'],
+        'format': ['StrictPascalCase', 'strictCamelCase'],
+      },
     ],
     'max-classes-per-file': ['error', 1],
     'simple-import-sort/imports': 'error',
